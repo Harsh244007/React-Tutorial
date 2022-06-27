@@ -14,7 +14,10 @@
 
 // var a = 11;
 // a>10?console.log("a"):console.log("b")
-
-var a = true
-console.log(a, !a)
+var a = ['h', "s"]
+var aObj = a.map((a, i) => ({
+    id: i,
+    name:a
+}))
+console.log(a,aObj)
 

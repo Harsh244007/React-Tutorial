@@ -14,6 +14,9 @@ const NavBar = () => {
           <Link to="/second">
               <button>UseEffect Axios</button>
           </Link>
+           <Link to="/third">
+              <button>useReducer</button>
+          </Link>
 </div>
   )
 }
